@@ -1,4 +1,4 @@
-package com.ej.jse.gson;
+package javase.demo.gson;
 
 import org.junit.Test;
 

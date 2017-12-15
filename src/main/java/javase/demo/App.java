@@ -1,4 +1,4 @@
-package com.ej.jse;
+package javase.demo;
 
 /**
  * Hello world!

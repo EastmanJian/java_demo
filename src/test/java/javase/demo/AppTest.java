@@ -1,4 +1,4 @@
-package com.ej.jse;
+package javase.demo;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

@@ -1,4 +1,4 @@
-package com.ej.jse.gson;
+package javase.demo.gson;
 
 class BagOfPrimitives {
     private int value1 = 1;

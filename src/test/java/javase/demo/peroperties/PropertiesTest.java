@@ -1,4 +1,4 @@
-package com.ej.jse.peroperties;
+package javase.demo.peroperties;
 
 import org.junit.Test;
 

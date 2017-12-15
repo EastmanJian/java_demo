@@ -1,4 +1,4 @@
-package com.ej.jse.gson;
+package javase.demo.gson;
 
 import com.google.gson.Gson;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
