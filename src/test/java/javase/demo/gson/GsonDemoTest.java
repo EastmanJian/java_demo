@@ -9,8 +9,16 @@ import static org.junit.Assert.*;
  */
 public class GsonDemoTest {
     @Test
-    public void main() throws Exception {
-
+    public void objToJson() throws Exception {
+        GsonDemo demo = new GsonDemo();
+        demo.objToJson();
     }
+
+    @Test
+    public void jsonToObj() throws Exception {
+        GsonDemo demo = new GsonDemo();
+        demo.jsonToObj();
+    }
+
 
 }

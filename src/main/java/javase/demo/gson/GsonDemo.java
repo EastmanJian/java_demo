@@ -5,20 +5,14 @@ import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 import org.apache.commons.lang3.builder.ToStringStyle;
 
 public class GsonDemo {
-    public static void main(String[] args) {
-        GsonDemo demo = new GsonDemo();
-        demo.objToJson();
-        demo.jsonToObj();
-    }
-
-    private void objToJson() {
+    public void objToJson() {
         BagOfPrimitives obj = new BagOfPrimitives();
         Gson gson = new Gson();
         String json = gson.toJson(obj);
         System.out.println("json=" + json);
     }
 
-    private void jsonToObj() {
+    public void jsonToObj() {
         String json = "{\"value1\":1,\"value2\":\"abc\"}";
         Gson gson = new Gson();
         BagOfPrimitives obj2 = gson.fromJson(json, BagOfPrimitives.class);

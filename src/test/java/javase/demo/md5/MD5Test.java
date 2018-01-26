@@ -25,7 +25,7 @@ public class MD5Test {
         //The result should be the same as the openssl command below
         // $ echo -n 1293874ysodfhasdfhhsdklfhaklhhdhfdfsd | openssl md5
         String data = "1293874ysodfhasdfhhsdklfhaklhhdhfdfsd";
-        MessageDigest md = MessageDigest.getInstance("md5");
+        MessageDigest md = MessageDigest.getInstance("MD5");
         byte[] md5 = md.digest(data.getBytes());
         String md5Str =  toHex(md5);
         System.out.println(Arrays.toString(md5));
