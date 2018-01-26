@@ -9,6 +9,8 @@ import java.io.*;
  * 2) ensure the write() operations will not be overlapped with each other
  * 3) read() should not read intermediate data
  * 4) to consider the performance, allow multi threads to read concurrently.
+ *
+ * Below is one of the implementation using basic Java multithread programming
  */
 public class ReadWrite {
     public static File file = new File ("c:\\temp\\ConcurrentReadWrite.txt");

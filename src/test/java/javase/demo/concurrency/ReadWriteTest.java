@@ -17,7 +17,7 @@ public class ReadWriteTest {
         bw.close();
         fw.close();
 
-        //simulate concurrent access
+        //simulate multiple concurrent accesses
         String[] data1 = {"1", "2", "3", "4", "5"};
         String[] data2 = {"a", "b", "c", "d", "e"};
         Thread[] t = new Thread[100];
